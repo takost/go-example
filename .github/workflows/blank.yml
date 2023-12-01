@@ -27,10 +27,10 @@ jobs:
         with:
             # Required: Define the repo path to the go.mod file used by the
             # build target
-            go-mod-path: ./helloserver/go.mod
+            go-mod-path: ${{GITHUB_WORKSPACE}}/helloserver/go.mod
             #
             # Optional: Define the path of a build target (a file with a
             # `main()` function) If not defined, this Action will collect all
             # dependencies used by all build targets for the module, which may
             # include Go dependencies used by tests and tooling.
-            go-build-target: ./helloserver/server.go
+            go-build-target: ${{GITHUB_WORKSPACE}}/helloserver/server.go
