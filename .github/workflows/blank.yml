@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Dependency Review
-        uses: actions/dependency-review-action@takost/update-to-node-20
+        uses: actions/dependency-review-action@1c9a424cbc6f5bc5724f6875ea791bf08e1bfb40
         with:
           fail-on-severity: low
           license-check: false
