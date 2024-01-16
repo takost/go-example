@@ -13,7 +13,7 @@ env:
 
 jobs:
   go-action-detection:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: 'Checkout Repository'
         uses: actions/checkout@v3
