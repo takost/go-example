@@ -16,3 +16,5 @@ jobs:
         with:
           fail-on-severity: low
           license-check: false
+          base-ref: 667f27a1947b84ea21c4e4e7c923a63872fbf953
+          head-ref: 1d6d2400d4027025cb8edc86a139c9c581d672f7
